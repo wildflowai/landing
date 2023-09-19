@@ -63,7 +63,7 @@ const Steps = () => {
                 </div>
               ))}
           </div>
-          <div className="relative">
+          {/* <div className="relative">
             {image && (
               <Image
                 src={image.src}
@@ -73,7 +73,7 @@ const Steps = () => {
                 className="inset-0 w-full rounded-md bg-gray-500 object-cover object-top shadow-lg dark:bg-slate-700 md:absolute md:h-full"
               />
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
