@@ -9,6 +9,9 @@ module.exports = {
 
   swcMinify: true,
   poweredByHeader: false,
+  images: {
+    unoptimized: true,
+  },
   // images: {
   //   remotePatterns: [
   //     {
@@ -22,4 +25,5 @@ module.exports = {
   //   ],
   // },
   // experimental: { appDir: true },
+  output: "export",
 };
