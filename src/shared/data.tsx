@@ -62,7 +62,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: "Try our prototype",
-      href: "https://github.com/onwidget/tailnext",
+      href: "https://wildflow-demo.web.app/",
       targetBlank: true,
       btnType: "primary",
     },
