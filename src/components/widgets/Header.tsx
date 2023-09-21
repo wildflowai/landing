@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import React, { FunctionComponent } from "react";
 import { IconRss } from "@tabler/icons-react";
 import ToggleDarkMode from "~/components/atoms/ToggleDarkMode";
 import Link from "next/link";
@@ -154,6 +155,26 @@ const Header = () => {
           } fixed bottom-0 left-0 w-full justify-end p-3 md:static md:mb-0 md:flex md:w-auto md:self-center md:p-0`}
         >
           <div className="flex w-full items-center justify-between md:w-auto">
+            {socials.map((social, index) => {
+              if (!social.icon) return null;
+              if (!social.href) return null;
+
+              const IconComponent = social.icon as React.FunctionComponent<{
+                className?: string;
+              }>;
+
+              return (
+                <Link
+                  key={`social-${index}`}
+                  className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                  aria-label={social.label}
+                  href={social.href}
+                >
+                  <IconComponent className="h-5 w-5" />
+                </Link>
+              );
+            })}
+
             {showToggleTheme && <ToggleDarkMode />}
             {showRssFeed && (
               <Link

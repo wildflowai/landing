@@ -4,6 +4,7 @@ import {
   IconArrowsRightLeft,
   IconBrandFacebook,
   IconBrandGithub,
+  IconBrandSlack,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandTailwind,
@@ -52,11 +53,6 @@ export const headerData: HeaderProps = {
     {
       label: "Docs",
       href: "https://docs.wildflow.ai/overview",
-    },
-    {
-      label: "Github",
-      icon: IconBrandGithub,
-      href: "https://github.com/wildflowai/",
     },
   ],
   actions: [
@@ -1310,6 +1306,11 @@ export const footerData: FooterProps = {
       label: "Github",
       icon: IconBrandGithub,
       href: "https://github.com/wildflowai/",
+    },
+    {
+      label: "Slack",
+      icon: IconBrandSlack,
+      href: "https://join.slack.com/t/wildflow/shared_invite/zt-23xn504ts-6ytY4qiLzm3mfdfiHGcivA",
     },
   ],
 };
