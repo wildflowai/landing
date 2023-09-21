@@ -1,10 +1,10 @@
 module.exports.SITE = {
   name: "wildflow",
 
-  origin: "https://tailnext.vercel.app",
+  origin: "https://wildflow.ai",
   basePathname: "/",
   trailingSlash: false,
 
-  title: "Wildflow",
-  description: "Wildflow landing page",
+  title: "wildflow",
+  description: "wildflow landing page",
 };
