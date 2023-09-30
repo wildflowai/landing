@@ -24,7 +24,7 @@ const SubscribeForm = () => {
     }
   }, [name, email]);
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError("");
@@ -43,11 +43,16 @@ const SubscribeForm = () => {
 
     if (isNameValid && isEmailValid) {
       try {
-        await axios.post("/api/subscribe", { name, email });
+        const response = await axios.post(
+          "https://us-central1-wildflow-demo.cloudfunctions.net/addAudienceSubscriber",
+          { name, email }
+        );
         setSubscribed(true);
-      } catch (err) {
+      } catch (err: any) {
         console.error(err);
-        setError("Something went wrong! Please try again.");
+        const errorMessage =
+          err.response?.data || "Something went wrong! Please try again.";
+        setError(errorMessage);
       }
     }
 
