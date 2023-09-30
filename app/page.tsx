@@ -15,6 +15,7 @@ import {
   // pricingData,
   // socialProofData,
 } from "~/shared/data";
+import SubscribeForm from "~/components/widgets/SubscribeForm";
 
 export const metadata: Metadata = {
   title: SITE.title,
@@ -29,6 +30,7 @@ export default function Page() {
       {/* <Content {...contentData} /> */}
       {/* <Content {...content2Data} /> */}
       <Steps />
+      <SubscribeForm />
       {/* <Testimonial /> */}
       {/* <FAQs2 {...faqsData2} /> */}
       {/* <Pricing {...pricingData} /> */}

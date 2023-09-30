@@ -3,10 +3,8 @@ const SITE = require("./src/config.js").SITE;
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-
   trailingSlash: SITE.trailingSlash,
   basePath: SITE.basePathname !== "/" ? SITE.basePathname : "",
-
   swcMinify: true,
   poweredByHeader: false,
   images: {
@@ -25,5 +23,5 @@ module.exports = {
   //   ],
   // },
   // experimental: { appDir: true },
-  output: "export",
+  //output: "export",
 };
