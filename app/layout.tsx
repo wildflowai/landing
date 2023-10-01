@@ -45,12 +45,7 @@ export default function RootLayout({ children }: LayoutProps) {
           {/* <Footer2 /> */}
         </Providers>
         {/* 100% privacy-first analytics */}
-        <Script
-          strategy="beforeInteractive"
-          src="https://scripts.simpleanalyticscdn.com/latest.js"
-          async
-          defer
-        />
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
         <noscript>
           <img
             src="https://queue.simpleanalyticscdn.com/noscript.gif"
