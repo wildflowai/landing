@@ -24,7 +24,7 @@ const SubscribeForm = () => {
     }
   }, [name, email]);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     setLoading(true);
     setError("");
