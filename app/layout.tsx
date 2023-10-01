@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Script from "next/script";
 
 import { SITE } from "~/config.js";
 
@@ -44,11 +45,12 @@ export default function RootLayout({ children }: LayoutProps) {
           {/* <Footer2 /> */}
         </Providers>
         {/* 100% privacy-first analytics */}
-        <script
+        <Script
+          strategy="beforeInteractive"
+          src="https://scripts.simpleanalyticscdn.com/latest.js"
           async
           defer
-          src="https://scripts.simpleanalyticscdn.com/latest.js"
-        ></script>
+        />
         <noscript>
           <img
             src="https://queue.simpleanalyticscdn.com/noscript.gif"
