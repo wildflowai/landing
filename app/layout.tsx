@@ -43,6 +43,19 @@ export default function RootLayout({ children }: LayoutProps) {
           <main>{children}</main>
           {/* <Footer2 /> */}
         </Providers>
+        {/* 100% privacy-first analytics */}
+        <script
+          async
+          defer
+          src="https://scripts.simpleanalyticscdn.com/latest.js"
+        ></script>
+        <noscript>
+          <img
+            src="https://queue.simpleanalyticscdn.com/noscript.gif"
+            alt=""
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </noscript>
       </body>
     </html>
   );
