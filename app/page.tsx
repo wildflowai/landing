@@ -16,6 +16,7 @@ import {
   // socialProofData,
 } from "~/shared/data";
 import SubscribeForm from "~/components/widgets/SubscribeForm";
+import WhatsAppSlack from "~/components/widgets/WhatsAppSlack";
 
 export const metadata: Metadata = {
   title: SITE.title,
@@ -31,6 +32,7 @@ export default function Page() {
       {/* <Content {...content2Data} /> */}
       <Steps />
       <SubscribeForm />
+      <WhatsAppSlack />
       {/* <Testimonial /> */}
       {/* <FAQs2 {...faqsData2} /> */}
       {/* <Pricing {...pricingData} /> */}

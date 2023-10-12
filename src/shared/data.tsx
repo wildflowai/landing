@@ -5,6 +5,7 @@ import {
   IconBrandFacebook,
   IconBrandGithub,
   IconBrandSlack,
+  IconBrandWhatsapp,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandTailwind,
@@ -1311,6 +1312,11 @@ export const footerData: FooterProps = {
       label: "Slack",
       icon: IconBrandSlack,
       href: "https://join.slack.com/t/wildflow/shared_invite/zt-23xn504ts-6ytY4qiLzm3mfdfiHGcivA",
+    },
+    {
+      label: "WhatsApp",
+      icon: IconBrandWhatsapp,
+      href: "https://chat.whatsapp.com/FC19T0CAcq0JUGJRCsxAyM",
     },
   ],
 };
