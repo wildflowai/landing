@@ -5,12 +5,12 @@ const stepsData = {
     {
       title: "join our Discord community",
       icon: IconBrandDiscord,
-      href: "https://discord.gg/j7BBsHUJSC",
+      href: "https://discord.wildflow.ai",
     },
     {
       title: "join our WhatsApp community",
       icon: IconBrandWhatsapp,
-      href: "https://chat.whatsapp.com/FC19T0CAcq0JUGJRCsxAyM",
+      href: "https://whatsapp.wildflow.ai",
     },
   ],
 };

@@ -1311,12 +1311,12 @@ export const footerData: FooterProps = {
     {
       label: "Discord",
       icon: IconBrandDiscord,
-      href: "https://discord.gg/j7BBsHUJSC",
+      href: "https://discord.wildflow.ai",
     },
     {
       label: "WhatsApp",
       icon: IconBrandWhatsapp,
-      href: "https://chat.whatsapp.com/FC19T0CAcq0JUGJRCsxAyM",
+      href: "https://whatsapp.wildflow.ai",
     },
   ],
 };
