@@ -1306,7 +1306,7 @@ export const footerData: FooterProps = {
     {
       label: "Github",
       icon: IconBrandGithub,
-      href: "https://github.com/wildflowai/",
+      href: "https://github.com/wildflowai/platform",
     },
     {
       label: "Discord",
