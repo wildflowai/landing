@@ -4,7 +4,7 @@ import {
   IconArrowsRightLeft,
   IconBrandFacebook,
   IconBrandGithub,
-  IconBrandSlack,
+  IconBrandDiscord,
   IconBrandWhatsapp,
   IconBrandInstagram,
   IconBrandLinkedin,
@@ -1309,9 +1309,9 @@ export const footerData: FooterProps = {
       href: "https://github.com/wildflowai/",
     },
     {
-      label: "Slack",
-      icon: IconBrandSlack,
-      href: "https://join.slack.com/t/wildflow/shared_invite/zt-23xn504ts-6ytY4qiLzm3mfdfiHGcivA",
+      label: "Discord",
+      icon: IconBrandDiscord,
+      href: "https://discord.gg/j7BBsHUJSC",
     },
     {
       label: "WhatsApp",

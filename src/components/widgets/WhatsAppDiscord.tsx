@@ -1,21 +1,21 @@
-import { IconBrandSlack, IconBrandWhatsapp } from "@tabler/icons-react";
+import { IconBrandDiscord, IconBrandWhatsapp } from "@tabler/icons-react";
 
 const stepsData = {
   items: [
     {
-      title: "- join our Slack community",
-      icon: IconBrandSlack,
-      href: "https://join.slack.com/t/wildflow/shared_invite/zt-23xn504ts-6ytY4qiLzm3mfdfiHGcivA",
+      title: "join our Discord community",
+      icon: IconBrandDiscord,
+      href: "https://discord.gg/j7BBsHUJSC",
     },
     {
-      title: "- join our WhatsApp community",
+      title: "join our WhatsApp community",
       icon: IconBrandWhatsapp,
       href: "https://chat.whatsapp.com/FC19T0CAcq0JUGJRCsxAyM",
     },
   ],
 };
 
-const WhatsAppSlack = () => {
+const WhatsAppDiscord = () => {
   const { items } = stepsData;
 
   return (
@@ -42,4 +42,4 @@ const WhatsAppSlack = () => {
   );
 };
 
-export default WhatsAppSlack;
+export default WhatsAppDiscord;
