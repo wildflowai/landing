@@ -642,19 +642,19 @@ export const stepsData: StepsProps = {
     {
       title: "Accelerate your workflows",
       description:
-        "WildFlow provides a comprehensive biodiversity data warehouse that stores and processes data across multiple formats in the Cloud. Spend less time searching for data, downloading it to your devices to run analysis, cleaning it up and making sense of it, freeing up time to act on research and actionable insights.",
+        "wildflow provides a comprehensive biodiversity data warehouse that stores and processes data across multiple formats in the Cloud. Spend less time searching for data, downloading it to your devices to run analysis, cleaning it up and making sense of it, freeing up time to act on research and actionable insights.",
       icon: IconArrowDown,
     },
     {
       title: "Generate valuable insights",
       description:
-        "Standardize and transform your data into a time-series geospatial format for more effective analyses and applications in a friendly UI with no code needed. With WildFlow, you can leverage AI algorithms to analyze biodiversity data and generate valuable insights. Unlock the hidden patterns and trends in nature to make informed decisions for your business or research.",
+        "Standardize and transform your data into a time-series geospatial format for more effective analyses and applications in a friendly UI with no code needed. With wildflow, you can leverage AI algorithms to analyze biodiversity data and generate valuable insights. Unlock the hidden patterns and trends in nature to make informed decisions for your business or research.",
       icon: IconArrowDown,
     },
     {
       title: "Broadcast your findings",
       description:
-        "Share your discoveries with the world using WildFlow's broadcasting capabilities. Provide increased governance, full transparency and contribute to conservation helping get users closer to biodiversity.",
+        "Share your discoveries with the world using wildflow's broadcasting capabilities. Provide increased governance, full transparency and contribute to conservation helping get users closer to biodiversity.",
       icon: IconArrowDown,
     },
     {
